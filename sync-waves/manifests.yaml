@@ -58,7 +58,7 @@ spec:
       containers:
         - name: page-up
           image: alpine:latest
-          command: ["sleep", "2"]
+          command: ["sleep", "3"]
       restartPolicy: Never
   backoffLimit: 0
 ---
